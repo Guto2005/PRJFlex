@@ -2,6 +2,21 @@
     margin: 0;
     padding: 0;
 }
+.top-bar{
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.top-bar--brand-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.top-bar--brand {
+
+}
+
  header{
     background-color: aqua;
 margin: 0;
@@ -19,10 +34,31 @@ main{
 
 }
 
-footer {background: yellowgreen;
+footer {background: rgb(178, 179, 177);
 }
 
-section { border: 1px solid black;
-          width: 30%;
-          padding: 20px;  
+.top-bar-login{
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.top-bar--login-logo{
+    width: 10vw;
+    height: auto;
+
+}
+
+a{
+    color:red
+}
+
+a:hover{
+    color:yellow;
+    font-size:20px;
+}
+
+a:visited{
+    color:green
 }
